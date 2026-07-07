@@ -25,7 +25,7 @@ Example :
 			"_name":"the return of the bane",
 			"path":"path/to/etcetera..."
 		}
-    ...
+        ...
 	]
 }
 
