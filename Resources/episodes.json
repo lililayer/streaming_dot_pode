@@ -1,0 +1,60 @@
+{
+	"episodes":[
+		{
+			"tag":"Ep1",
+			"_name":"the bane",
+			"path":"Resources/video1.mp4"
+		},
+		{
+			"tag":"Ep2",
+			"_name":"the cure",
+			"path":"/path/to/video2.mov"
+		},
+		{
+			"tag":"Ep3",
+			"_name":"the return of the bane",
+			"path":"path/to/etcetera..."
+		},
+		{
+			"tag":"Ep4",
+			"_name":"another cure",
+			"path":""
+		},
+		{
+			"tag":"Ep5",
+			"_name":"zombies are comming",
+			"path":""
+		},
+		{
+			"tag":"Ep6",
+			"_name":"zombofun",
+			"path":""
+		},
+		{
+			"tag":"Ep7",
+			"_name":"a very long road",
+			"path":""
+		},
+		{
+			"tag":"Ep8",
+			"_name":"does this road have an end ?",
+			"path":""
+		},
+		{
+			"tag":"Ep9",
+			"_name":"the return of the bane on the road",
+			"path":""
+		},
+		{
+			"tag":"Ep10",
+			"_name":"semi-final battle on the road",
+			"path":""
+		},
+		{
+			"tag":"Ep11",
+			"_name":"the end of the road",
+			"path":""
+		}
+	]
+}
+
