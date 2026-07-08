@@ -9,6 +9,7 @@ Add your video files in Resources/ and modify Resources/episodes.json to matche 
 
 Example : 
 ```json
+{
 "params":{
 		"episodes_table-bg_color":"#000000",
 		"episodes_table-margin_left":"20px",
@@ -41,4 +42,6 @@ Example :
 			"path":"path/to/etcetera..."
 		},
 		[...]
+	]
+}
 ```
