@@ -6,7 +6,7 @@ Must be executed on a server as streaming.js use fetching.
 
 ## USAGE
 Add your video files in Resources/ and modify Resources/episodes.json :
-- in `episodes` to matche there pathes and names.
+- in `episodes` to matche there pathes and names
 - in `params` to set episodes table and boxes styles
 
 Example : 
