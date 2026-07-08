@@ -1,5 +1,4 @@
 # streaming_dot_pode
-video serie viewer prototype
 
 Easily configurable html-javascript prototype to publish web-series.
 
