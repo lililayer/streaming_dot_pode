@@ -52,4 +52,4 @@ Example :
 Example :
 
 ![graphic rendering](https://github.com/lililayer/streaming_dot_pode/blob/main/rend.png?raw=true)
-(A scrollbar is also displayed in the episodes table when episode's list overflows)
+(A scrollbar is also displayed in the episodes table when episode's box-list overflows)
