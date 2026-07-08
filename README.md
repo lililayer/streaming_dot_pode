@@ -2,6 +2,7 @@
 video serie viewer prototype
 
 Easily configurable html-javascript prototype to publish web-series.
+Must be executed on a server as streaming.js use fetching.
 
 ## USAGE
 Add your video files in Resources/ and modify Resources/episodes.json to matche there pathes and names.
