@@ -1,4 +1,4 @@
-# streaming_dot_pode
+# Streaming Dot Pode
 
 Easily configurable html-javascript prototype to publish web-series.
 
