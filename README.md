@@ -5,12 +5,14 @@ Easily configurable html-javascript prototype to publish web-series.
 Must be executed on a server as streaming.js use fetching.
 
 ## USAGE
-Add your video files in Resources/ and modify Resources/episodes.json to matche there pathes and names.
+Add your video files in Resources/ and modify Resources/episodes.json :
+	- in `episodes` to matche there pathes and names.
+	- in `params` to modify params to set episodes table and boxes styles
 
 Example : 
 ```json
 {
-"params":{
+	"params":{
 		"episodes_table-bg_color":"#000000",
 		"episodes_table-margin_left":"20px",
 		"episodes_table-margin_right":"20px",
