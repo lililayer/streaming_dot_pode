@@ -13,15 +13,30 @@ function Load() {
     fetch(episodes_json)
         .then(response => response.json())
         .then(data => {
+            // PARAMS
+            params = data["params"];
+            et_bg_color = params["episodes_table-bg_color"]
+		    et_margin_left = params["episodes_table-margin_left"]
+		    et_margin_right = params["episodes_table-margin_right"]
+		    et_margin_top = params["episodes_table-margin_top"]
+		    eb_padding = params["episode_box-padding"]
+		    eb_border_color = params["episode_box-border_color"]
+		    eb_width = params["episode_box-width"]
+		    eb_height = params["episode_box-height"]
+		    eb_bg_color = params["episode_box-bg_color"]
+		    eb_font_color = params["episode_box-font_color"]
+		    eb_font_policy = params["episode_box-font_policy"]
+		    eb_text_align = params["episode_box-text_align"]
+		    eb_font_size = params["episode_box-font_size"]
             // START CONTENT
-            content = "<table style=\"background-color:black;margin-left:20px;margin-right:20px;margin-top:0px;display:block;overflow:scroll;\"><tr>"
+            content = "<table style=\"background-color:"+et_bg_color+";margin-left:"+et_margin_left+";margin-right:"+et_margin_right+";margin-top:"+et_margin_top+";display:block;overflow:scroll;\"><tr>"
             // GET ALL EPISODES
             data["episodes"].forEach(episode => 
             {
                 video_sources.push(episode.path);
-                content += "<td style=\"padding:5px\"><button type=\"button\" style=\"border-color:#111;width:150px;height:150px;background-color:black;\">"
-                content += "<h4 style=\";color:#e8e8e8;font-family:monospace;text-align:left;padding-bottom:0px;padding-top:5px\">" + episode.tag + "</h4>"
-                content += "<p style=\";color:#e8e8e8;font-family:monospace;\">" + episode._name + "</p>"
+                content += "<td style=\"padding:"+eb_padding+"\"><button type=\"button\" style=\"border-color:"+eb_border_color+";width:"+eb_width+";height:"+eb_height+";background-color:"+eb_bg_color+";\">"
+                content += "<h4 style=\"font-size:"+eb_font_size+";color:"+eb_font_color+";font-family:"+eb_font_policy+";text-align:"+eb_text_align+";padding-bottom:0px;padding-top:0px;margin-top:0px;\">" + episode.tag + "</h4>"
+                content += "<p style=\"font-size:"+eb_font_size+";padding-bottom:0px;padding-top:0px;color:"+eb_font_color+";font-family:"+eb_font_policy+";\">" + episode._name + "</p>"
                 content += "</button></td>"
             });
         })
