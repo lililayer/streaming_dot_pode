@@ -48,5 +48,5 @@ Example :
 }
 ```
 
-# REND
+# RENDERING
 ![graphic rendering](https://github.com/lililayer/streaming_dot_pode/blob/main/rend.png?raw=true)
